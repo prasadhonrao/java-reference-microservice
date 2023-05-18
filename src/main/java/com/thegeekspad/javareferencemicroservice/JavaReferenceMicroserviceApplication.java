@@ -15,6 +15,6 @@ public class JavaReferenceMicroserviceApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Welcome";
+		return "Welcome to Java on Docker!";
 	}
 }
